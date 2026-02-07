@@ -4,24 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Import Question</title>
-    <link rel="stylesheet" href="./public/css/style.css" />
-   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Cinematic font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <div class="container">
       <div class="banner-gif">
-        <img id="banner" src="./public/images/mid.gif" alt="banner" />
+        <img id="banner" src="./mid.gif" alt="banner" />
       </div>
-      <h1 id="question-heading">Ananyaa jii Will you be my valentine?</h1>
+
+      <h1 id="question-heading">
+        Ananyaa jii Will you be my valentine?
+      </h1>
+
       <div class="buttons">
         <button id="yes-button"><p>Yes</p></button>
         <button id="no-button"><p>No</p></button>
       </div>
+
       <div class="message">
-        <h2 id="success-message">Motuuuu, see you sooonnn :<<3😘💘</h2>
-        
-            </div>
+        <h2 id="success-message">
+          Motuuuu, see you sooonnn :<<3 😘💘
+        </h2>
+      </div>
+
       <div class="language-selector">
         <label for="language-select">Choose Language:</label>
         <select id="language-select" onchange="changeLanguage()">
@@ -31,6 +45,9 @@
         </select>
       </div>
     </div>
-    <script src="./public/js/script.js"></script>
+
+    <!-- JS -->
+    <script src="./script.js"></script>
   </body>
 </html>
+
